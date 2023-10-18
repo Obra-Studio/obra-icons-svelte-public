@@ -1,8 +1,15 @@
 <svelte:options namespace="svg" />
 
+<script>
+  export let size = 24
+  export let color = 'currentColor'
+  // svelte-ignore unused-export-let
+  export let strokeWidth = 2
+</script>
+
 <svg
-	width="24"
-	height="24"
+	width={size}
+	height={size}
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
@@ -11,8 +18,8 @@
 		<path
 			class="oi-line"
 			d="M12 3V21"
-			stroke="black"
-			stroke-width="2"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-miterlimit="10"
 			stroke-linecap="round"
 			stroke-linejoin="round"
@@ -20,17 +27,17 @@
 		<path
 			class="oi-line"
 			d="M21 12L3 12"
-			stroke="black"
-			stroke-width="2"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-miterlimit="10"
 			stroke-linecap="round"
 			stroke-linejoin="round"
 		/>
 		<path
 			class="oi-line"
-			d="M19.6569 15.6567L16 11.9999"
-			stroke="black"
-			stroke-width="2"
+			d="M19.6569 15.6569L16 12"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-miterlimit="10"
 			stroke-linecap="round"
 			stroke-linejoin="round"
@@ -38,17 +45,17 @@
 		<path
 			class="oi-line"
 			d="M8.34315 4.34315L12 8"
-			stroke="black"
-			stroke-width="2"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-miterlimit="10"
 			stroke-linecap="round"
 			stroke-linejoin="round"
 		/>
 		<path
 			class="oi-line"
-			d="M15.6569 19.6567L12 15.9999"
-			stroke="black"
-			stroke-width="2"
+			d="M15.6569 19.6569L12 16"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-miterlimit="10"
 			stroke-linecap="round"
 			stroke-linejoin="round"
@@ -56,17 +63,17 @@
 		<path
 			class="oi-line"
 			d="M4.34315 8.34315L8 12"
-			stroke="black"
-			stroke-width="2"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-miterlimit="10"
 			stroke-linecap="round"
 			stroke-linejoin="round"
 		/>
 		<path
 			class="oi-line"
-			d="M8.34314 19.657L12 16.0001"
-			stroke="black"
-			stroke-width="2"
+			d="M8.34314 19.6569L12 16"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-miterlimit="10"
 			stroke-linecap="round"
 			stroke-linejoin="round"
@@ -74,17 +81,17 @@
 		<path
 			class="oi-line"
 			d="M19.6568 8.34317L16 12"
-			stroke="black"
-			stroke-width="2"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-miterlimit="10"
 			stroke-linecap="round"
 			stroke-linejoin="round"
 		/>
 		<path
 			class="oi-line"
-			d="M4.34314 15.657L8 12.0001"
-			stroke="black"
-			stroke-width="2"
+			d="M4.34314 15.6569L8 12"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-miterlimit="10"
 			stroke-linecap="round"
 			stroke-linejoin="round"
@@ -92,8 +99,8 @@
 		<path
 			class="oi-line_10"
 			d="M15.6568 4.34315L12 8"
-			stroke="black"
-			stroke-width="2"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-miterlimit="10"
 			stroke-linecap="round"
 			stroke-linejoin="round"

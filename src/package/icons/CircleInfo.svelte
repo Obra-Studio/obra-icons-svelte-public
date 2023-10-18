@@ -1,8 +1,15 @@
 <svelte:options namespace="svg" />
 
+<script>
+  export let size = 24
+  export let color = 'currentColor'
+  // svelte-ignore unused-export-let
+  export let strokeWidth = 2
+</script>
+
 <svg
-	width="24"
-	height="24"
+	width={size}
+	height={size}
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
@@ -13,28 +20,28 @@
 			cx="12"
 			cy="12"
 			r="9"
-			stroke="black"
-			stroke-width="2"
+			stroke={color}
+			stroke-width={strokeWidth}
 		/>
 		<path
 			class="oi-vector"
 			d="M11.9999 16.7122L11.9999 10.6733"
-			stroke="black"
-			stroke-width="2"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-linecap="round"
 		/>
 		<path
 			class="oi-mini-dot"
 			d="M12.0029 7.32996H12.0149"
-			stroke="black"
-			stroke-width="2"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-linecap="round"
 		/>
 		<path
 			class="oi-line"
 			d="M12.0029 16.7541L12.0029 10.7153"
-			stroke="black"
-			stroke-width="2"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-linecap="round"
 		/>
 	</g>

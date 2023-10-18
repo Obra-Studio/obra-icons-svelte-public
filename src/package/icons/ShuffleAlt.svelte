@@ -1,8 +1,15 @@
 <svelte:options namespace="svg" />
 
+<script>
+  export let size = 24
+  export let color = 'currentColor'
+  // svelte-ignore unused-export-let
+  export let strokeWidth = 2
+</script>
+
 <svg
-	width="24"
-	height="24"
+	width={size}
+	height={size}
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
@@ -11,40 +18,40 @@
 		<path
 			class="oi-incomplete-triangle"
 			d="M16 3H21V8"
-			stroke="black"
-			stroke-width="2"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-linecap="round"
 			stroke-linejoin="round"
 		/>
 		<path
 			class="oi-line"
 			d="M3.99999 20L21 3"
-			stroke="black"
-			stroke-width="2"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-linecap="round"
 			stroke-linejoin="round"
 		/>
 		<path
 			class="oi-incomplete-triangle"
 			d="M21 16V21H16"
-			stroke="black"
-			stroke-width="2"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-linecap="round"
 			stroke-linejoin="round"
 		/>
 		<path
 			class="oi-line"
 			d="M15 15L21 21"
-			stroke="black"
-			stroke-width="2"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-linecap="round"
 			stroke-linejoin="round"
 		/>
 		<path
 			class="oi-line"
 			d="M3.99999 4L8.99999 9"
-			stroke="black"
-			stroke-width="2"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-linecap="round"
 			stroke-linejoin="round"
 		/>

@@ -1,13 +1,5 @@
 // prettier-ignore
 export default {
-  "activity": [
-    "action",
-    "movement",
-    "task",
-    "exercise",
-    "event",
-    "busy"
-  ],
   "add": [
     "plus",
     "create",
@@ -15,17 +7,6 @@ export default {
     "include",
     "append",
     "attach"
-  ],
-  "add-connection": [
-    "network",
-    "link",
-    "join",
-    "connect",
-    "relationship",
-    "friendship",
-    "plus",
-    "create",
-    "insert"
   ],
   "airplay": [
     "stream",
@@ -89,7 +70,7 @@ export default {
     "lower",
     "decrease",
     "drop",
-    "fall"
+    "reduce"
   ],
   "arrow-left": [
     "back",
@@ -129,15 +110,15 @@ export default {
     "arrow pointing down and right",
     "arrow going down and to the right",
     "arrow slanting down and right",
-    "arrow pointing in a diagonal direction"
+    "arrow diagonal down and right"
   ],
   "arrow-right-up": [
-    "upward",
+    "upward arrow",
+    "right arrow",
     "direction",
     "move",
-    "point",
-    "go",
-    "navigate"
+    "navigate",
+    "go"
   ],
   "arrow-up": [
     "up",
@@ -363,9 +344,9 @@ export default {
     "stripes",
     "lines",
     "pattern",
-    "texture",
-    "box design",
     "striped box",
+    "box with stripes",
+    "box design",
     "container",
     "package",
     "carton"
@@ -390,9 +371,9 @@ export default {
     "insect",
     "pest",
     "beetle",
+    "creepy-crawly",
     "infection",
-    "glitch",
-    "error"
+    "glitch"
   ],
   "building": [
     "house",
@@ -461,7 +442,7 @@ export default {
     "photography",
     "image",
     "snapshot",
-    "shoot"
+    "shutter"
   ],
   "car": [
     "vehicle",
@@ -477,9 +458,25 @@ export default {
     "expand",
     "collapse",
     "dropdown",
+    "menu"
+  ],
+  "caret-down-fill": [
+    "arrow",
+    "down",
+    "expand",
+    "collapse",
+    "dropdown",
     "select"
   ],
   "caret-left": [
+    "arrow",
+    "back",
+    "previous",
+    "left",
+    "direction",
+    "navigate"
+  ],
+  "caret-left-fill": [
     "arrow",
     "back",
     "previous",
@@ -495,7 +492,23 @@ export default {
     "previous-next",
     "toggle"
   ],
+  "caret-left-right-fill": [
+    "arrow",
+    "direction",
+    "navigate",
+    "move",
+    "previous-next",
+    "toggle"
+  ],
   "caret-right": [
+    "arrow",
+    "forward",
+    "next",
+    "navigate",
+    "move",
+    "go"
+  ],
+  "caret-right-fill": [
     "arrow",
     "forward",
     "next",
@@ -518,6 +531,22 @@ export default {
     "toggle",
     "navigate",
     "scroll"
+  ],
+  "caret-up-down-fill": [
+    "arrow",
+    "direction",
+    "up-down",
+    "toggle",
+    "navigate",
+    "scroll"
+  ],
+  "caret-up-fill": [
+    "arrow-up",
+    "upward",
+    "point-up",
+    "increase",
+    "elevate",
+    "ascend"
   ],
   "cast": [
     "stream",
@@ -704,8 +733,8 @@ export default {
     "return",
     "loop",
     "reverse",
+    "undo",
     "retreat",
-    "go back",
     "retrace",
     "round",
     "shape",
@@ -896,9 +925,9 @@ export default {
     "completed",
     "verified",
     "done",
+    "finished",
     "tick",
     "mark",
-    "confirm",
     "notepad",
     "document",
     "paper"
@@ -948,9 +977,9 @@ export default {
     "timepiece",
     "timer",
     "wristwatch",
-    "chronometer",
     "hourglass",
-    "sundial"
+    "chronometer",
+    "timekeeper"
   ],
   "close": [
     "exit",
@@ -1087,8 +1116,8 @@ export default {
     "network",
     "join",
     "bridge",
-    "attach",
-    "combine"
+    "sync",
+    "attach"
   ],
   "contact-book": [
     "address book",
@@ -1144,7 +1173,7 @@ export default {
     "royal",
     "monarch",
     "headpiece",
-    "tiara"
+    "coronet"
   ],
   "cyclist": [
     "biker",
@@ -1304,7 +1333,7 @@ export default {
     "note",
     "record",
     "document",
-    "small document"
+    "sheet"
   ],
   "double-check": [
     "verify",
@@ -1328,7 +1357,7 @@ export default {
     "descend",
     "release",
     "let go",
-    "plunge"
+    "plummet"
   ],
   "edit": [
     "modify",
@@ -1395,12 +1424,12 @@ export default {
     "widen"
   ],
   "export": [
-    "save",
     "download",
-    "backup",
+    "save",
     "transfer",
-    "extract",
-    "output"
+    "share",
+    "backup",
+    "extract"
   ],
   "external-link": [
     "link",
@@ -1591,8 +1620,8 @@ export default {
     "lettering",
     "typography",
     "scaling",
-    "text scaling",
-    "font scaling"
+    "text dimension",
+    "character size"
   ],
   "fullscreen": [
     "maximize",
@@ -1605,10 +1634,10 @@ export default {
   "gift": [
     "present",
     "surprise",
-    "package",
     "box",
     "celebration",
-    "birthday"
+    "birthday",
+    "holiday"
   ],
   "globe": [
     "world",
@@ -1649,6 +1678,14 @@ export default {
     "passion",
     "cardiovascular",
     "valentine"
+  ],
+  "heartrate": [
+    "heart",
+    "pulse",
+    "cardio",
+    "health",
+    "fitness",
+    "beats"
   ],
   "home": [
     "house",
@@ -1727,12 +1764,12 @@ export default {
     "access"
   ],
   "land": [
-    "earth",
     "ground",
+    "earth",
     "terrain",
     "soil",
     "landscape",
-    "country"
+    "property"
   ],
   "language": [
     "tongue",
@@ -1814,6 +1851,14 @@ export default {
     "tie",
     "associate"
   ],
+  "link-add": [
+    "attach",
+    "connect",
+    "join",
+    "combine",
+    "include",
+    "append"
+  ],
   "link-alt": [
     "link",
     "hyperlink",
@@ -1894,7 +1939,7 @@ export default {
   "marker-alt": [
     "highlighter",
     "pen",
-    "pencil",
+    "marker",
     "annotate",
     "edit",
     "write",
@@ -1906,7 +1951,7 @@ export default {
     "medicine",
     "doctor's bag",
     "first aid kit",
-    "medical supplies"
+    "patient folder"
   ],
   "media": [
     "video",
@@ -1920,9 +1965,9 @@ export default {
     "loudspeaker",
     "announcement",
     "speaker",
-    "public address",
     "bullhorn",
-    "amplifier"
+    "amplifier",
+    "public address"
   ],
   "menu": [
     "list",
@@ -1946,7 +1991,7 @@ export default {
     "text",
     "notification",
     "inbox",
-    "mail"
+    "email"
   ],
   "message-circle": [
     "chat",
@@ -2095,9 +2140,9 @@ export default {
     "disconnected",
     "unavailable",
     "not online",
-    "offline mode",
     "no internet",
-    "out of service"
+    "offline mode",
+    "not connected"
   ],
   "options-horizontal": [
     "menu",
@@ -2234,17 +2279,17 @@ export default {
     "chart",
     "graph",
     "diagram",
-    "statistics",
     "data",
+    "statistics",
     "visualization"
   ],
   "pie-chart-3-parts": [
     "chart",
     "graph",
     "diagram",
+    "pie",
     "statistics",
-    "data",
-    "visualization"
+    "data"
   ],
   "pie-chart-single-part": [
     "chart",
@@ -2315,8 +2360,8 @@ export default {
     "silence",
     "turn off",
     "disable",
-    "quiet",
     "no sound",
+    "quiet",
     "music",
     "broadcast",
     "station"
@@ -2559,7 +2604,7 @@ export default {
     "security",
     "lock",
     "unlock",
-    "shield",
+    "remove",
     "guard"
   ],
   "shopping-cart": [
@@ -2680,7 +2725,7 @@ export default {
     "shine",
     "twinkle",
     "glimmer",
-    "shimmer",
+    "dazzle",
     "spark"
   ],
   "sparkles-fill": [
@@ -2695,7 +2740,7 @@ export default {
     "audio",
     "sound",
     "music",
-    "volume",
+    "stereo",
     "amplifier",
     "loudspeakers"
   ],
@@ -2927,9 +2972,9 @@ export default {
     "send",
     "move",
     "exchange",
-    "shift",
-    "relocate",
-    "handover"
+    "transaction",
+    "deposit",
+    "withdraw"
   ],
   "trending-down": [
     "declining",
@@ -2949,10 +2994,10 @@ export default {
   ],
   "triangle": [
     "shape",
-    "pyramid",
     "polygon",
+    "pyramid",
+    "arrow",
     "trigon",
-    "three-sided",
     "delta"
   ],
   "truck": [
@@ -3204,11 +3249,11 @@ export default {
   ],
   "wifi-off": [
     "no wifi",
-    "disconnect",
+    "disconnected",
     "offline",
-    "no connection",
-    "wireless off",
     "network off",
+    "wireless off",
+    "no internet",
     "internet",
     "wireless",
     "network"
@@ -3225,14 +3270,14 @@ export default {
     "pane",
     "frame",
     "view",
-    "screen",
     "interface",
-    "browser"
+    "screen",
+    "display"
   ],
   "yen": [
     "currency",
-    "Japanese",
     "money",
+    "Japanese",
     "Japan",
     "yen symbol",
     "Japanese currency"

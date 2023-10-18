@@ -1,8 +1,15 @@
 <svelte:options namespace="svg" />
 
+<script>
+  export let size = 24
+  export let color = 'currentColor'
+  // svelte-ignore unused-export-let
+  export let strokeWidth = 2
+</script>
+
 <svg
-	width="24"
-	height="24"
+	width={size}
+	height={size}
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
@@ -10,9 +17,9 @@
 	<g class="oi-clock">
 		<path
 			class="oi-vector"
-			d="M12 7.19995L12 12.0999C12 12.3761 12.2239 12.5999 12.5 12.5999L16.8 12.5999"
-			stroke="black"
-			stroke-width="2"
+			d="M12 7.19995L12 12.0999C12 12.3761 12.2238 12.5999 12.5 12.5999L16.8 12.5999"
+			stroke={color}
+			stroke-width={strokeWidth}
 			stroke-linecap="round"
 		/>
 		<circle
@@ -20,8 +27,8 @@
 			cx="12"
 			cy="12"
 			r="9"
-			stroke="black"
-			stroke-width="2"
+			stroke={color}
+			stroke-width={strokeWidth}
 		/>
 	</g>
 </svg>
