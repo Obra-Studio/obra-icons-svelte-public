@@ -1,0 +1,45 @@
+<svelte:options namespace="svg" />
+
+<script>
+  export let size = 24
+  export let color = 'currentColor'
+  // svelte-ignore unused-export-let
+  export let strokeWidth = 2
+</script>
+
+<svg
+	width={size}
+	height={size}
+	viewBox="0 0 24 24"
+	fill="none"
+	xmlns="http://www.w3.org/2000/svg"
+>
+	<g class="oi-fat-marker">
+		<path
+			class="oi-vector"
+			d="M6 18.6667L8 14H16L18 18.6667"
+			stroke={color}
+			stroke-width={strokeWidth}
+			stroke-miterlimit="10"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+		/>
+		<path
+			class="oi-vector"
+			d="M9 9V14H15V7L9 9Z"
+			stroke={color}
+			stroke-width={strokeWidth}
+			stroke-miterlimit="10"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+		/>
+		<circle
+			class="oi-ellipse"
+			cx="12"
+			cy="12"
+			r="9"
+			stroke={color}
+			stroke-width={strokeWidth}
+		/>
+	</g>
+</svg>
