@@ -2,7 +2,13 @@
 
 Obra Icons for <a href="https://svelte.dev/">Svelte</a>.
 
-A simple, consistent set of icons, perfect for user interfaces. Obra Icons consists of more than 350 icons.
+A simple, consistent set of icons, perfect for user interfaces. Obra Icons consists of more than 600 icons.
+
+See package at https://www.npmjs.com/package/obra-icons-svelte .
+
+## Which icons are available?
+
+For a full reference, see the list at [Obra Icons website](https://icons.obra.studio/icons).
 
 ## Installation
 
@@ -18,7 +24,7 @@ npm install obra-icons-svelte
 </script>
 ```
 
-## Customizing an icon
+## Customizing an icon using props
 
 Use the `size`, `color` and `strokeWidth` props to customize the icon.
 
@@ -44,6 +50,3 @@ Next to this, the inner elements are also targetable, with the following class n
 - `oi-medium-dot`: Medium dots
 - `oi-dot`: Regular dots
 
-## Which icons are available?
-
-For a full reference, see the list at [Obra Icons website](https://icons.obra.studio/icons).
