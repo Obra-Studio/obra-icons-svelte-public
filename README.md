@@ -29,8 +29,10 @@ npm install obra-icons-svelte
 Use the `size`, `color` and `strokeWidth` props to customize the icon.
 
 ```svelte
-   <IconActivity size={24} color="red" strokeWidth={1} />
+<IconActivity size={24} color="red" strokeWidth={1} />
 ```
+
+For a visual example please refer to this [REPL](https://svelte.dev/repl/eff0004eec214e87bd1a3d8e04579dea?version=4.2.2).
 
 # Targeting with CSS
 
@@ -50,3 +52,4 @@ Next to this, the inner elements are also targetable, with the following class n
 - `oi-medium-dot`: Medium dots
 - `oi-dot`: Regular dots
 
+For a visual example please refer to this [REPL](https://svelte.dev/repl/de36de49fb984d5d9c892f4dbee3a22f?version=4.2.2). 
