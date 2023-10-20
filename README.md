@@ -34,7 +34,7 @@ Use the `size`, `color` and `strokeWidth` props to customize the icon.
 
 For a visual example please refer to this [REPL](https://svelte.dev/repl/eff0004eec214e87bd1a3d8e04579dea?version=4.2.2).
 
-# Targeting with CSS
+## Targeting with CSS
 
 Every SVG contains an `obra-icon` class on the top level SVG element, that you can target with CSS.
 
