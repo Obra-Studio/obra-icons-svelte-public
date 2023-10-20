@@ -13,6 +13,7 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-sun">
 		<circle
@@ -64,7 +65,7 @@
 		/>
 		<path
 			class="oi-line"
-			d="M4 12L3 12"
+			d="M4.00001 12L3.00001 12"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-miterlimit="10"

@@ -13,6 +13,7 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-shopping-cart-add">
 		<path
@@ -24,7 +25,7 @@
 		/>
 		<path
 			class="oi-medium-dot"
-			d="M18.4902 20.0262H18.5022"
+			d="M18.4902 20.0264H18.5022"
 			stroke={color}
 			stroke-width={strokeWidth*1.5}
 			stroke-linecap="round"

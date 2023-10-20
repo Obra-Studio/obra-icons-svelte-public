@@ -13,11 +13,12 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-bills">
 		<path
 			class="oi-vector"
-			d="M5 15.6958V18C5 18.5523 5.44772 19 6 19H20C20.5523 19 21 18.5523 21 18V10C21 9.44772 20.5523 9 20 9H19.1348"
+			d="M5 15V18C5 18.5523 5.44772 19 6 19H20C20.5523 19 21 18.5523 21 18V10C21 9.44772 20.5523 9 20 9H19"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-miterlimit="10"

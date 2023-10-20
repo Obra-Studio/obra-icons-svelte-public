@@ -13,6 +13,7 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-bar-chart">
 		<rect
@@ -21,7 +22,7 @@
 			y="3"
 			width="4"
 			height="18"
-			rx="1.2"
+			rx="1"
 			stroke={color}
 			stroke-width={strokeWidth}
 		/>
@@ -31,7 +32,7 @@
 			y="8"
 			width="4"
 			height="13"
-			rx="1.2"
+			rx="1"
 			stroke={color}
 			stroke-width={strokeWidth}
 		/>
@@ -41,7 +42,7 @@
 			y="13"
 			width="4"
 			height="8"
-			rx="1.2"
+			rx="1"
 			stroke={color}
 			stroke-width={strokeWidth}
 		/>

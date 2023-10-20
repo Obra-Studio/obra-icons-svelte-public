@@ -13,6 +13,7 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-bug">
 		<path
@@ -80,7 +81,7 @@
 			stroke-linejoin="round"
 		/>
 		<path
-			class="oi-box"
+			class="oi-vector"
 			d="M14 7H10C7.79086 7 6 8.79086 6 11V15C6 18.3137 8.68629 21 12 21C15.3137 21 18 18.3137 18 15V11C18 8.79086 16.2091 7 14 7Z"
 			stroke={color}
 			stroke-width={strokeWidth}

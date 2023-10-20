@@ -1,0 +1,52 @@
+<svelte:options namespace="svg" />
+
+<script>
+  export let size = 24
+  export let color = 'currentColor'
+  // svelte-ignore unused-export-let
+  export let strokeWidth = 2
+</script>
+
+<svg
+	width={size}
+	height={size}
+	viewBox="0 0 24 24"
+	fill="none"
+	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
+>
+	<g class="oi-telescope">
+		<path
+			class="oi-vector"
+			d="M7 21L13 13L21 21"
+			stroke={color}
+			stroke-width={strokeWidth}
+			stroke-linecap="round"
+			stroke-linejoin="round"
+		/>
+		<path
+			class="oi-vector"
+			d="M5.22803 7.30306L18.76 2.24306C18.9517 2.17152 19.1607 2.16049 19.3588 2.21146C19.5569 2.26242 19.7347 2.37292 19.868 2.52806L20.058 2.74806C21.3108 4.20059 22 6.0549 22 7.97306V8.58906C22.0001 8.79287 21.9379 8.99183 21.8217 9.15929C21.7055 9.32676 21.5409 9.45473 21.35 9.52606L7.81403 14.5861L5.22803 7.30306Z"
+			stroke={color}
+			stroke-width={strokeWidth}
+			stroke-linecap="round"
+			stroke-linejoin="round"
+		/>
+		<path
+			class="oi-vector"
+			d="M2.66002 11.371C2.48416 10.8752 2.51077 10.33 2.73407 9.85362C2.95738 9.37725 3.3594 9.00805 3.85302 8.82603L5.54702 8.20203L7.49102 13.675L5.85102 14.287C5.60234 14.3799 5.33766 14.4224 5.0724 14.412C4.80713 14.4016 4.5466 14.3384 4.30599 14.2263C4.06538 14.1141 3.84951 13.9552 3.67096 13.7587C3.49241 13.5623 3.35475 13.3322 3.26602 13.082L2.66002 11.371Z"
+			stroke={color}
+			stroke-width={strokeWidth}
+			stroke-linecap="round"
+			stroke-linejoin="round"
+		/>
+		<path
+			class="oi-vector"
+			d="M13 13V22"
+			stroke={color}
+			stroke-width={strokeWidth}
+			stroke-linecap="round"
+			stroke-linejoin="round"
+		/>
+	</g>
+</svg>

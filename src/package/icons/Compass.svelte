@@ -13,6 +13,7 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-compass">
 		<path
@@ -26,7 +27,7 @@
 		/>
 		<path
 			class="oi-fill"
-			d="M15.5356 8.46451L13.4142 13.4143L8.46448 15.5356L10.5858 10.5858L15.5356 8.46451Z"
+			d="M15.5355 8.46451L13.4142 13.4143L8.46445 15.5356L10.5858 10.5858L15.5355 8.46451Z"
 			fill={color}
 		/>
 	</g>

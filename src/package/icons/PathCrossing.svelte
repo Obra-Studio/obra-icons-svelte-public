@@ -13,6 +13,7 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-path-crossing">
 		<path
@@ -31,14 +32,14 @@
 		/>
 		<path
 			class="oi-line"
-			d="M19.8 16.4667L16.4819 13.1485C16.0132 12.6799 16.0132 11.9201 16.4819 11.4515L19.8 8.13334"
+			d="M19.8 16.4667L16.4818 13.1485C16.0132 12.6799 16.0132 11.9201 16.4818 11.4515L19.8 8.13334"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-linecap="round"
 		/>
 		<path
 			class="oi-line"
-			d="M4.8 16.4667L8.11815 13.1485C8.58678 12.6799 8.58678 11.9201 8.11815 11.4515L4.8 8.13334"
+			d="M4.8 16.4667L8.11814 13.1485C8.58677 12.6799 8.58677 11.9201 8.11814 11.4515L4.8 8.13334"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-linecap="round"

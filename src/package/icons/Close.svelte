@@ -13,11 +13,12 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-close">
 		<path
 			class="oi-line"
-			d="M18.0001 6L6.00009 18"
+			d="M18.0001 6L6.00006 18"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-linecap="round"
@@ -25,7 +26,7 @@
 		/>
 		<path
 			class="oi-line"
-			d="M6.00009 6L18.0001 18"
+			d="M6.00006 6L18.0001 18"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-linecap="round"

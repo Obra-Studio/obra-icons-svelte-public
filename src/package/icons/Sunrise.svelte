@@ -13,6 +13,7 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-sunrise">
 		<path
@@ -62,7 +63,7 @@
 		/>
 		<path
 			class="oi-line"
-			d="M6.34314 10.3431L5.63603 9.63603"
+			d="M6.34314 10.3431L5.63604 9.63603"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-miterlimit="10"

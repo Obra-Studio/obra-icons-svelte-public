@@ -13,11 +13,12 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-document">
 		<path
 			class="oi-box"
-			d="M5.00001 4C5.00001 3.44772 5.44772 3 6.00001 3H14L19 8V20C19 20.5523 18.5523 21 18 21H6.00001C5.44772 21 5.00001 20.5523 5.00001 20V4Z"
+			d="M5 4C5 3.44772 5.44772 3 6 3H14L19 8V20C19 20.5523 18.5523 21 18 21H6C5.44772 21 5 20.5523 5 20V4Z"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-miterlimit="10"
@@ -35,7 +36,7 @@
 		/>
 		<path
 			class="oi-line"
-			d="M15 13L8.99998 13"
+			d="M15 13L9 13"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-miterlimit="10"
@@ -44,7 +45,7 @@
 		/>
 		<path
 			class="oi-line"
-			d="M15 17L8.99998 17"
+			d="M15 17L9 17"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-miterlimit="10"

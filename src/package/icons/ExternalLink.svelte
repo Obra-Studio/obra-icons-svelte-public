@@ -13,11 +13,12 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-external-link">
 		<path
 			class="oi-line"
-			d="M20 4L8.99998 15"
+			d="M20 4L9 15"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-miterlimit="10"
@@ -35,7 +36,7 @@
 		/>
 		<path
 			class="oi-vector"
-			d="M18 14V19C18 19.5523 17.5523 20 17 20H4.99999C4.44771 20 3.99999 19.5523 3.99999 19V7C3.99999 6.44772 4.44771 6 4.99999 6H9.99999"
+			d="M18 14V19C18 19.5523 17.5523 20 17 20H5C4.44772 20 4 19.5523 4 19V7C4 6.44772 4.44772 6 5 6H10"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-miterlimit="10"

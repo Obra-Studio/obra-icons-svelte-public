@@ -13,6 +13,7 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-sign-out">
 		<path
@@ -35,7 +36,7 @@
 		/>
 		<path
 			class="oi-vector"
-			d="M9 21H4C3.44772 21 3 20.5523 3 20L3 4C3 3.44772 3.44772 3 4 3H9"
+			d="M9 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H9"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-miterlimit="10"

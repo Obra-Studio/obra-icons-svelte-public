@@ -13,11 +13,12 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-log-in">
 		<path
 			class="oi-line"
-			d="M15 12H3"
+			d="M15 12H3.00001"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-miterlimit="10"

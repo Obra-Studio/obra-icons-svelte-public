@@ -13,6 +13,7 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-equalizer">
 		<path
@@ -43,7 +44,7 @@
 		/>
 		<path
 			class="oi-vector"
-			d="M5 11.9714L13.2 11.9369"
+			d="M5.00002 11.9714L13.2 11.9369"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-linecap="round"
@@ -59,7 +60,7 @@
 		/>
 		<path
 			class="oi-vector"
-			d="M5 6.00012L6.1995 5.96562"
+			d="M5.00002 6.00012L6.19952 5.96562"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-linecap="round"
@@ -75,7 +76,7 @@
 		/>
 		<circle
 			class="oi-ellipse"
-			cx="9"
+			cx="9.00002"
 			cy="6"
 			r="2"
 			stroke={color}

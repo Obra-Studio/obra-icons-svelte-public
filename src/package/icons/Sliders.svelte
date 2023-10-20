@@ -13,11 +13,12 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-sliders">
 		<path
 			class="oi-line"
-			d="M4.00012 21V14"
+			d="M4.00009 21V14"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-linecap="round"
@@ -25,7 +26,7 @@
 		/>
 		<path
 			class="oi-line"
-			d="M4.00012 10V3"
+			d="M4.00009 10V3"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-linecap="round"
@@ -65,7 +66,7 @@
 		/>
 		<path
 			class="oi-line"
-			d="M1.00012 14H7.00012"
+			d="M1.00009 14H7.00009"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-linecap="round"

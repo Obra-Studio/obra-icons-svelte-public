@@ -13,6 +13,7 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-ordered-list">
 		<path
@@ -37,7 +38,7 @@
 			class="oi-vector"
 			d="M6.18584 9.94819V5.45042C6.18584 5.44333 6.17731 5.43975 6.17224 5.4447L4.93555 6.65511"
 			stroke={color}
-			stroke-width="1.59997"
+			stroke-width="1.6"
 			stroke-linecap="round"
 		/>
 		<path

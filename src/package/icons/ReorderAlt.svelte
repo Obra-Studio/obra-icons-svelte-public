@@ -13,11 +13,12 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-reorder-alt">
 		<path
 			class="oi-dot"
-			d="M7.99399 6H8.00599"
+			d="M7.99402 6H8.00602"
 			stroke={color}
 			stroke-width={strokeWidth*2}
 			stroke-linecap="round"
@@ -31,7 +32,7 @@
 		/>
 		<path
 			class="oi-dot"
-			d="M7.99399 12H8.00599"
+			d="M7.99402 12H8.00602"
 			stroke={color}
 			stroke-width={strokeWidth*2}
 			stroke-linecap="round"
@@ -45,7 +46,7 @@
 		/>
 		<path
 			class="oi-dot"
-			d="M7.99399 18H8.00599"
+			d="M7.99402 18H8.00602"
 			stroke={color}
 			stroke-width={strokeWidth*2}
 			stroke-linecap="round"

@@ -13,6 +13,7 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-shuffle-alt">
 		<path
@@ -25,7 +26,7 @@
 		/>
 		<path
 			class="oi-line"
-			d="M3.99999 20L21 3"
+			d="M4 20L21 3"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-linecap="round"
@@ -49,7 +50,7 @@
 		/>
 		<path
 			class="oi-line"
-			d="M3.99999 4L8.99999 9"
+			d="M4 4L9 9"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-linecap="round"

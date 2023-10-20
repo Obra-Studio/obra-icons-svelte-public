@@ -13,6 +13,7 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-share-alt">
 		<path
@@ -25,7 +26,7 @@
 		/>
 		<path
 			class="oi-line"
-			d="M8.59 13.51L15.42 17.49"
+			d="M8.59003 13.51L15.42 17.49"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-linecap="round"

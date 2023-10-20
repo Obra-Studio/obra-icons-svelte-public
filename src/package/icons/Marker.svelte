@@ -13,6 +13,7 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-marker">
 		<path
@@ -26,7 +27,7 @@
 		/>
 		<path
 			class="oi-vector"
-			d="M16.6891 19.601L15 12H9.00002L7.31091 19.601"
+			d="M16.6891 19.601L15 12H9L7.31089 19.601"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-miterlimit="10"

@@ -13,6 +13,7 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-speakers">
 		<path
@@ -26,7 +27,7 @@
 		/>
 		<path
 			class="oi-ellipse"
-			d="M12 17C13.6569 17 15 15.6569 15 14C15 12.3431 13.6569 11 12 11C10.3431 11 9 12.3431 9 14C9 15.6569 10.3431 17 12 17Z"
+			d="M12 17C13.6568 17 15 15.6569 15 14C15 12.3431 13.6568 11 12 11C10.3431 11 8.99997 12.3431 8.99997 14C8.99997 15.6569 10.3431 17 12 17Z"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-miterlimit="10"

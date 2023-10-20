@@ -13,6 +13,7 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-train">
 		<path
@@ -42,7 +43,7 @@
 		/>
 		<path
 			class="oi-vector"
-			d="M4.51547 8C6.12998 10.412 8.87954 12.0001 12 12.0001C15.1205 12.0001 17.87 10.412 19.4845 8"
+			d="M4.51546 8C6.12998 10.412 8.87953 12.0001 12 12.0001C15.1205 12.0001 17.87 10.412 19.4845 8"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-linecap="round"

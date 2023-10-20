@@ -13,6 +13,7 @@
 	viewBox="0 0 24 24"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
+	class="obra-icon"
 >
 	<g class="oi-circle-info">
 		<circle
@@ -25,7 +26,7 @@
 		/>
 		<path
 			class="oi-vector"
-			d="M11.9999 16.7122L11.9999 10.6733"
+			d="M12 16.7122L12 10.6733"
 			stroke={color}
 			stroke-width={strokeWidth}
 			stroke-linecap="round"
